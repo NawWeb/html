@@ -166,18 +166,11 @@ img{
     justify-content: center;
     z-index: 99999999;
 }
-.preeloder .shape{
-    background-color: var(--color);
-    height: 50px;
-    width: 50px;
-    border: 3px solid var(--color-add);
-    animation: myany 2s infinite;
-    -webkit-animation: myany 700 3s infinite;
-    border-radius: 50%;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    -o-border-radius: 50%;
+.preeloder h2{
+    color: var(--color);
+    font-size: 40px;
+    font-family: var(--font);
+    font-width: 700;
 }
 @keyframes myany{
     from{
