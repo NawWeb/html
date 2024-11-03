@@ -171,6 +171,7 @@ img{
     font-size: 40px;
     font-family: var(--font);
     font-width: 700;
+    animation: myany 1000 2s infinity;
 }
 @keyframes myany{
     from{
