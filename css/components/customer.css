@@ -1,0 +1,28 @@
+#customer{
+    background:linear-gradient(#000000a5, #000000a5), url(../../images/bannar.jpg) no-repeat center/cover;
+    padding: 30px 0;
+}
+#customer .customer_item{
+    padding: 20px 20px;
+}
+#customer .customer_item .customer_inner .customer_text{
+    text-align: center;
+    padding: 10px 20px;
+    border: 5px solid var(--color);
+}
+#customer .customer_item .customer_inner .customer_text i{
+    color: var(--color);
+    font-size: 50px;
+}
+#customer .customer_item .customer_inner .customer_text .counter{
+    color: var(--color);
+    font-family: var(--font);
+    font-weight: 500;
+    padding: 20px 0;
+}
+#customer .customer_item .customer_inner .customer_text p{
+    color: var(--color);
+    font-size: 20px;
+    font-family: var(--font);
+    font-weight: 200;
+}

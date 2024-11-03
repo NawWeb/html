@@ -1,0 +1,101 @@
+#contact{
+    padding: 100px 0;
+}
+#contact .contact_main .heading{
+    color: var(--color-add);
+    font-size: var(--heading);
+    font-family: var(--font);
+    font-weight: var(head-width);
+    text-align: center;
+    margin-bottom: 100px;
+    position: relative;
+}
+#contact .contact_main .heading::after{
+    background-color: var(--main-color);
+    position: absolute;
+    content: '';
+    bottom: 0;
+    left: 50%;
+    height: 2px ;
+    width: calc(100% - 70%);
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+}
+#contact .contact_main .contact_item .contact_inner .contact_text h3{
+    color: var(--main-color);
+    font-family: var(--font);
+    font-weight: 500;
+    padding-bottom: 20px;
+}
+#contact .contact_main .contact_item .contact_inner .contact_text h5{
+    color: var(--color-add);
+    font-family: var(--font);
+    font-weight: 400;
+    padding-top: 20px;
+}
+#contact .contact_main .contact_item .contact_inner .contact_text p{
+    color: var(--color-added);
+    font-family: var(--font);
+    font-weight: 200;
+}
+#contact .contact_main .contact_item .contact_inner .contact_text i{
+    color: var(--main-color);
+    font-size: 28px;
+    padding-top: 10px;
+}
+#contact .contact_main .contact_item .contact_inner .contact_form{
+    padding: 40px 0;
+}
+#contact .contact_main .contact_item h3{
+    font-family: var(--font);
+    text-align: center;
+    padding-top: 30px;
+}
+#contact .contact_main .contact_item .contact_inner .contact_form form .name{
+    text-align: center;
+    padding: 20px 0;
+}
+#contact .contact_main .contact_item .contact_inner .contact_form form .name input{
+    width: 100%;
+    outline: 0;
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    border-bottom: 1px solid var(--color-add);
+}
+#contact .contact_main .contact_item .contact_inner .contact_form form .name textarea{
+    width: 100%;
+    outline: 0;
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    border-bottom: 1px solid var(--color-add);
+}
+#contact .contact_main .contact_item .contact_inner .contact_form form .name label{
+    font-family: var(--font);
+    font-weight: 300;
+    text-transform: capitalize;
+}
+#contact .contact_main .contact_item .contact_inner .contact_form form .submit{
+    padding: 20px 0;
+}
+#contact .contact_main .contact_item .contact_inner .contact_form form .submit .btn{
+    color: var(--color);
+    background-color: var(--main-color);
+    font-family: var(--font);
+    font-weight: 300;
+    padding: var(--btn-pad);
+    border: 2px solid var(--main-color);
+    transition: var(--trans);
+    -webkit-transition: var(--trans);
+    -moz-transition: var(--trans);
+    -ms-transition: var(--trans);
+    -o-transition: var(--trans);
+}
+#contact .contact_main .contact_item .contact_inner .contact_form form .submit .btn:hover{
+    background-color: transparent;
+    color: var(--main-color);
+}

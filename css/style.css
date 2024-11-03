@@ -1,0 +1,212 @@
+@import '../css/components/nav.css';
+@import '../css/components/bannar.css';
+@import '../css/components/about.css';
+@import '../css/components/service.css';
+@import '../css/components/customer.css';
+@import '../css/components/portfolio.css';
+@import '../css/components/blog.css';
+@import '../css/components/testi.css';
+@import '../css/components/contact.css';
+/* end of bem */
+
+/* fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+/* fonts  */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+img{
+    vertical-align: middle;
+}
+
+/* default css end */
+
+/* roots */
+:root{
+    --main-color: #4d67e6;
+    --main-color2: #5873f8ac;
+    --color: #fff;
+    --color-add: #000;
+    --color-added: #302d2d;
+
+    /* end colors */
+    --font: "Oswald", serif;
+    /* end font family */
+    --trans: 0.5s;
+    /* transitions end */
+    --btn-pad: 10px 30px;
+    /* padding end */
+    --heading: 42px;
+    --head-width: 500;
+}
+/* roots */
+
+/* responsive */
+@media (min-width: 358.99px) and (max-width: 459.99px) {
+    #about .about_main .heading{
+        font-size: 30px;
+    }
+    #about .about_main .about_item .about_inner .about_img{
+        height: 50%;
+        width: 50%;
+    }
+    #service .service_main .heading{
+        font-size: 30px;
+    }
+    #port .port_main .heading{
+        font-size: 30px;
+    }
+    #testi .testi_main .heading{
+        font-size: 30px;
+    }
+    #blog .blog_main .heading{
+        font-size: 30px;
+    }
+    #contact .contact_main .heading{
+        font-size: 30px;
+    }
+    #contact .contact_main .contact_item .contact_inner .contact_text{
+        text-align: center;
+    }
+}
+
+/* sm display */
+@media (min-width: 460px) and (max-width: 575.99px) {
+    #about .about_main .heading{
+        font-size: 35px;
+    }
+    #about .about_main .about_item .about_inner .about_img{
+        height: 50%;
+        width: 50%;
+    }
+    #service .service_main .heading{
+        font-size: 35px;
+    }
+    #port .port_main .heading{
+        font-size: 35px;
+    }
+    #testi .testi_main .heading{
+        font-size: 35px;
+    }
+    #blog .blog_main .heading{
+        font-size: 35px;
+    }
+    #contact .contact_main .heading{
+        font-size: 35px;
+    }
+    #contact .contact_main .contact_item .contact_inner .contact_text{
+        text-align: center;
+    }
+}
+
+
+/* md display */
+@media (min-width: 576px) and (max-width: 767.99px) {
+    #bannar .bannar_main .bannar_item .bannar_inner .bannar_text h5{
+        font-size: 14px !important;
+    }
+    #about .about_main .about_item .about_inner .about_img{
+        height: 50%;
+        width: 50%;
+    }
+    #port .port_btn button{
+        font-size: 12px;
+    }
+}
+
+/* lg display */
+@media (min-width: 768px) and (max-width: 991.99px) {
+    #bannar .bannar_main .bannar_item .bannar_inner .bannar_text h5{
+        font-size: 14px !important;
+    }
+    #about .about_main .about_item .about_inner .about_img{
+        height: 50%;
+        width: 50%;
+    }
+    #contact .contact_main .contact_item .contact_inner .contact_text{
+        text-align: start;
+    }
+}
+/* responsive */
+
+
+/* additonals */
+.top{
+    background-color: var(--main-color);
+    position: fixed;
+    bottom: 30%;
+    right: 0%;
+    padding: 10px 30px;
+    border: 2px solid var(--color);
+    cursor: pointer;
+    display: none;
+    z-index: 999;
+}
+.top i{
+    color: var(--color);
+    font-size: 20px;
+}
+.preeloder{
+    background-color: var(--main-color);
+    position: fixed;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 99999999;
+}
+.preeloder .shape{
+    background-color: var(--color);
+    height: 50px;
+    width: 50px;
+    border: 3px solid var(--color-add);
+    animation: myany 2s infinite;
+    -webkit-animation: myany 700 3s infinite;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+@keyframes myany{
+    from{
+        transform: scale(1);
+        -webkit-transform: scale(1);
+        -moz-transform: scale(1);
+        -ms-transform: scale(1);
+        -o-transform: scale(1);
+    }
+    to{
+        transform: scale(1.2);
+        -webkit-transform: scale(1.2);
+        -moz-transform: scale(1.2);
+        -ms-transform: scale(1.2);
+        -o-transform: scale(1.2);
+    }
+}
+/* additonals */
+/* footer */
+footer{
+    background-color: var(--main-color);
+    padding: 20px 0;
+}
+footer .footer_text{
+    text-align: center;
+}
+footer .footer_text h6{
+    color: var(--color);
+    font-family: var(--font);
+    font-weight: 200;
+}
+/* footer */

@@ -1,0 +1,124 @@
+#testi{
+    padding: 100px 0;
+}
+#testi .testi_main .heading{
+    color: var(--color-add);
+    font-size: var(--heading);
+    font-family: var(--font);
+    font-weight: var(head-width);
+    text-align: center;
+    position: relative;
+}
+#testi .testi_main .heading::after{
+    background-color: var(--main-color);
+    position: absolute;
+    content: '';
+    bottom: 0;
+    left: 50%;
+    height: 2px ;
+    width: calc(100% - 70%);
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+}
+#testi .testi_main .testi_slide{
+    padding-top: 100px;
+}
+#testi .slick-dots{
+    text-align: center;
+}
+#testi .slick-dots li{
+    display: inline-block;
+    margin: 0 10px;
+    height: 14px;
+    width: 14px;
+    border: 1px solid var(--main-color);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    position: relative;
+}
+#testi .slick-dots li button{
+    color: transparent;
+    background-color: var(--main-color);
+    height: 9px;
+    width: 9px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    opacity: 0;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+#testi .slick-dots li.slick-active button{
+    opacity: 1;
+}
+#testi .testi_main .testi_item .testi_inner{
+    padding: 40px 40px;
+}
+#testi .testi_main .testi_item .testi_inner .testi_text{
+    background-color: #b7b5b596;
+    padding: 30px 30px;
+    text-align: center;
+    font-family: var(--font);
+    margin-bottom: 50px;
+}
+#testi .testi_main .testi_item .testi_inner .testi_text p{
+    color: var(--color-add);
+    font-weight: 200;
+    word-spacing: 3px;
+}
+#testi .testi_main .testi_item .testi_inner .testi_text h3{
+    color: var(--main-color);
+    font-weight: 300;
+    word-spacing: 3px;
+}
+#testi .testi_main .testi_item .testi_inner .testi_text h5{
+    color: var(--main-color);
+    font-weight: 300;
+    word-spacing: 3px;
+}
+#testi .testi_main .testi_item .testi_inner .testi_shape{
+        width: 0px;
+        height: 0px;
+        border-style: solid;
+        border-width: 0 20px 40px 20px;
+        border-color: transparent transparent var(--main-color) transparent;
+        transform: rotate(179deg);
+        margin-top: -70px;
+}
+#testi .testi_main .testi_item .testi_inner .testi_image{
+    height: 140px;
+    width: 140px;
+    margin: 0 auto;
+    border: 2px solid var(--color-add);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+#testi .testi_main .testi_item .testi_inner .testi_text h3{
+    font-weight: 300;
+}
+#testi .testi_main .testi_item .testi_inner .testi_image img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}

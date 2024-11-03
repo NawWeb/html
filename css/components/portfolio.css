@@ -1,0 +1,56 @@
+#port{
+    padding: 100px 0;
+}
+#port .port_main .heading{
+    color: var(--color-add);
+    font-size: var(--heading);
+    font-family: var(--font);
+    font-weight: var(head-width);
+    text-align: center;
+    margin-bottom: 50px;
+    position: relative;
+}
+#port .port_main .heading::after{
+    background-color: var(--main-color);
+    position: absolute;
+    content: '';
+    bottom: 0;
+    left: 50%;
+    height: 2px ;
+    width: calc(100% - 70%);
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+}
+#port .port_main .port_btn{
+    text-align: center;
+    margin: 50px 0;
+}
+#port .port_main .port_btn button{
+    background-color: transparent;
+    color: var(--main-color);
+    padding: var(--btn-pad);
+    border: 2px solid var(--main-color);
+    margin: 20px 10px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+#port button.mixitup-control-active{
+    background-color: var(--main-color) !important;
+    color: var(--color) !important;
+    border: 2px solid var(--main-color);
+}
+#port .port_main .port_item .port_inner{
+    height: 240px;
+    width: 100%;
+    margin: 20px 0;
+}
+#port .port_main .port_item .port_inner img{
+    height: 100% ;
+    width: 100%;
+}

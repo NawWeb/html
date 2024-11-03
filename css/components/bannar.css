@@ -1,0 +1,44 @@
+#bannar{
+    background:linear-gradient(#000000a5, #000000a5), url(../../images/bannar.jpg) no-repeat center/cover;
+    padding: 130px 0;
+}
+#bannar .bannar_main .bannar_item{
+    padding: 0 30px;
+}
+#bannar .bannar_main .bannar_item .bannar_inner{
+    padding: 20px 30px;
+}
+#bannar .bannar_main .bannar_item .bannar_inner .bannar_text{
+    text-align: center;
+    color: var(--color);
+    font-family: var(--font);
+}
+#bannar .bannar_main .bannar_item .bannar_inner .bannar_text h2{
+    font-weight: 300;
+}
+#bannar .bannar_main .bannar_item .bannar_inner .bannar_text h1{
+    font-weight: 500;
+    padding: 10px 0;
+    word-spacing: 3px;
+}
+#bannar .bannar_main .bannar_item .bannar_inner .bannar_text h5{
+    font-size: 24px;
+    font-weight: 200;
+    padding: 10px 0;
+    word-spacing: 4px;
+    text-transform: capitalize;
+}
+#bannar .bannar_main .bannar_item .bannar_inner .bannar_text p{
+    font-size: 16px;
+    font-weight: 200;
+    padding: 10px 0;
+}
+#bannar .bannar_main .bannar_item .bannar_inner .bannar_text .bannar_btn{
+    padding: 20px 0;
+    margin-top: 30px;
+}
+#bannar .bannar_main .bannar_item .bannar_inner .bannar_text .bannar_btn .btn{
+    color: var(--color);
+    background-color: var(--main-color);
+    padding: var(--btn-pad);
+}

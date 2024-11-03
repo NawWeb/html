@@ -1,0 +1,104 @@
+#service{
+    padding: 100px 0;
+}
+#service .service{
+    padding-top: 100px;
+}
+#service .service_main .heading{
+    color: var(--color-add);
+    font-size: var(--heading);
+    font-family: var(--font);
+    font-weight: var(head-width);
+    text-align: center;
+    position: relative;
+}
+#service .service_main .heading::after{
+    background-color: var(--main-color);
+    position: absolute;
+    content: '';
+    bottom: 0;
+    left: 50%;
+    height: 2px ;
+    width: calc(100% - 70%);
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+}
+#service .service_main .service_item{
+    padding: 40px 20px;
+    border: 1px solid var(--main-color);
+}
+#service .service_main .service_item .testi_inner{
+    padding: 20px 40px;
+    background-color: var(--main-color2);
+}
+#service .service_main .service_item .service_inner .service_icon{
+    height: 50px;
+    width: 50px;
+    line-height: 40px;
+    margin: 0 auto;
+    border: 1px solid var(--main-color);
+    text-align: center;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    transition: var(--trans);
+    -webkit-transition: var(--trans);
+    -moz-transition: var(--trans);
+    -ms-transition: var(--trans);
+    -o-transition: var(--trans);
+}
+#service .service_main .service_item .service_inner .service_icon i{
+    color: var(--main-color);
+    font-size: 30px;
+    line-height: 50px;
+    transition: var(--trans);
+    -webkit-transition: var(--trans);
+    -moz-transition: var(--trans);
+    -ms-transition: var(--trans);
+    -o-transition: var(--trans);
+}
+#service .service_main .service_item .service_inner .service_text{
+    padding-top: 30px;
+}
+#service .service_main .service_item .service_inner .service_text h3{
+    color: var(--main-color);
+    font-family: var(--font);
+    font-weight: 300;
+}
+#service .service_main .service_item .service_inner .service_text p{
+    font-family: var(--font);
+    font-weight: 200;
+    word-spacing: 2px;
+    text-align: justify;
+}
+#service .service_main .service_item:hover .service_icon{
+    background-color: var(--main-color);
+}
+#service .service_main .service_item:hover .service_icon i{
+    color: var(--color);
+}
+#service .service_main .service_item .service_inner .service_text .service_btn{
+    padding: 20px 0;
+}
+#service .service_main .service_item .service_inner .service_text .service_btn .btn{
+    color: var(--color);
+    background-color: var(--main-color);
+    font-family: var(--font);
+    font-weight: 300;
+    padding: var(--btn-pad);
+    border: 2px solid var(--main-color);
+    transition: var(--trans);
+    -webkit-transition: var(--trans);
+    -moz-transition: var(--trans);
+    -ms-transition: var(--trans);
+    -o-transition: var(--trans);
+}
+#service .service_main .service_item .service_inner .service_text .service_btn .btn:hover{
+    color: var(--main-color);
+    background-color: transparent;
+}
